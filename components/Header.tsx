@@ -51,9 +51,11 @@ export const Header = () => {
         <NavItems setOpen={setOpen} />
       </nav>
       <div className="w-1/2 flex flex-row justify-end">
-        <button className="bg-[#eabf3e] text-black px-4 p-2 text-xs md:text-lg rounded-xl md:me-2 me-5">
-          My Resume
-        </button>
+        <Link href="/My_Resume.pdf" target="blank" rel="noopener noreferrer">
+          <button className="bg-[#eabf3e] text-black px-4 p-2 text-xs md:text-lg rounded-xl md:me-2 me-5">
+            My Resume
+          </button>
+        </Link>
         <div className="flex justify-end gap-3 md:hidden">
           <MobileNav />
         </div>
