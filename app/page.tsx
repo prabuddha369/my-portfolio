@@ -8,13 +8,13 @@ import { Contact } from "@/components/Contact";
 export default function Home() {
   return (
     <main className='h-full w-full bg-[#000000]'>
-      <Header/>
+      <Header />
       <Landing_Card />
-      <Projects />
-      <About />
-      <Skills />
-      <br/><br/>
-      <Contact/>
+        <Projects />
+        <About />
+        <Skills />
+        <br /><br />
+        <Contact />
     </main>
   );
 }

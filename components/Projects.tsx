@@ -6,7 +6,7 @@ import { projects } from "@/constants";
 
 export const Projects = () => {
   return (
-    <div className="flex flex-col md:items-center mt-28">
+    <div className="flex flex-col md:items-center mt-28 ">
       <h1 className="w-[80%] border-b border-b-[#eabf3e] md:border-none mx-10 ps-2 pb-2 md:pb-0 text-white font-bold text-2xl" id="projects">My Projects</h1>
       <div className="flex md:flex-wrap justify-center md:flex-row flex-col">
         {projects.map((project, index) => {

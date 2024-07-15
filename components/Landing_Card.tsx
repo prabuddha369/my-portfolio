@@ -5,7 +5,16 @@ const bodoni = Libre_Bodoni({ subsets: ["latin"] });
 export const Landing_Card = () => {
   return (
     <div className="mt-2 flex justify-center">
-      <style>{`
+      <div className="flex justify-center w-[98%] h-[28vh] md:h-[81.5vh] md:w-[80%] bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 p-1 rounded-xl">
+        <div
+          className="bg-cover bg-center w-[100%] h-[27vh] md:h-[80vh] rounded-xl"
+          style={{ backgroundImage: `url(/cardbg.png)` }} />
+      </div>
+    </div>
+  );
+};
+
+{/* <style>{`
       @property --rotate {
         syntax: "<angle>";
         initial-value: 132deg;
@@ -82,10 +91,4 @@ export const Landing_Card = () => {
           --rotate: 360deg;
         }
       }
-      `}</style>
-      <div
-        className="card bg-cover bg-center"
-        style={{ backgroundImage: `url(/cardbg.png)` }}/>
-    </div>
-  );
-};
+      `}</style> */}

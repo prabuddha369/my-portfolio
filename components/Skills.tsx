@@ -7,7 +7,7 @@ import { AiOutlineCode } from "react-icons/ai";
 
 export const Skills = () => {
   return (
-    <div className="flex flex-col md:mx-32 mx-12 mt-10">
+    <div className="flex flex-col md:mx-32 mx-12 mt-10 ">
       <h1 className="text-white font-bold text-2xl mb-5 border-b border-b-[#eabf3e] md:border-none pb-2">
         My Skills
       </h1>
