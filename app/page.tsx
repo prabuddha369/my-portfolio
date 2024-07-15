@@ -7,7 +7,7 @@ import { Contact } from "@/components/Contact";
 
 export default function Home() {
   return (
-    <main className='h-full w-full'>
+    <main className='h-full w-full bg-[#000000]'>
       <Header/>
       <Landing_Card />
       <Projects />
