@@ -9,7 +9,7 @@ export const projects = [
     {
       title: "Web",
       description:
-        "Kickstart is an online project showcasing and freelancing platform for college students.",
+        "Project Catalyser is an online project showcasing and Collaborating platform for college students.",
       icon: "/Kickstart.png",
       link: "https://github.com/prabuddha369/project-catalyzers",
   },
@@ -23,9 +23,23 @@ export const projects = [
   {
     title: "Web",
     description:
+      "Portfolio website for Animesh Pradhan - Highly Experienced Mathematics teacher holding Master's degree.",
+    icon: "/msw.png",
+    link: "https://www.becauseofmaths.in/",
+  },
+  {
+    title: "Web",
+    description:
       "Portfolio website for Arghyadip Biswas -Sports Nutritionist and Personal Fitness Trainer.",
     icon: "/ag.png",
     link: "https://github.com/prabuddha369/arghyadip_portfolio",
+  },
+  {
+    title: "IOT",
+    description:
+      "Smart Water Tank Management System to prevent wastage of water using auto-cut system.",
+    icon: "/wt.jpg",
+    link: "https://github.com/prabuddha369/Smart_Water_Management_System",
   },
 ];
   
